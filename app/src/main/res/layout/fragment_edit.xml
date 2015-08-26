@@ -1,0 +1,34 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/sName"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/sPhone"
+        android:inputType="text"
+        android:layout_gravity="center" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/sDesignation"
+        android:inputType="text"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnUpdate"
+        android:text="Update"/>
+
+</LinearLayout>
