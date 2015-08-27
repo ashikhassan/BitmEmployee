@@ -88,6 +88,7 @@ public class DataSource {
 
     public ArrayList<ContactModel> getAllContact(){
         ArrayList<ContactModel> contactList=new ArrayList<ContactModel>();
+        this.open();
 
         Cursor cursor=database.query(DatabaseHelper.TABLE_CONTACT,null,null,null,null,null,null);
 
@@ -112,7 +113,6 @@ public class DataSource {
 
         }
        return  contactList;
-
     }
 
     public  boolean deleteData(String id){

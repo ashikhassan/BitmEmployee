@@ -9,6 +9,15 @@ public class ContactModel {
     private String name;
     private  String phoneNo;
     private String designation;
+    private static String positionID;
+
+    public static String getPositionID() {
+        return positionID;
+    }
+
+    public static void setPositionID(String positionID) {
+        ContactModel.positionID = positionID;
+    }
 
     public ContactModel(String id, String name, String phoneNo, String designation) {
         this.id = id;

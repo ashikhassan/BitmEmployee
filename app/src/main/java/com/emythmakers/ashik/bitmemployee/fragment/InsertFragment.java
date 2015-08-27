@@ -60,7 +60,7 @@ public class InsertFragment extends Fragment {
                     fragment=new ListFragment();
                     fragmentTransaction.replace(R.id.loginFragment, fragment);
                     fragmentTransaction.commit();
-                    Toast.makeText(getActivity(),"Successfully Saved",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(),"Successfully inserted your data",Toast.LENGTH_SHORT).show();
                 }
 
             }

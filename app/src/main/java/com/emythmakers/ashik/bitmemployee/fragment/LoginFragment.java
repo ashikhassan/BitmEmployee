@@ -54,9 +54,9 @@ public class LoginFragment extends Fragment {
                     fragment=new InsertFragment();
                     fragmentTransaction.replace(R.id.loginFragment, fragment);
                     fragmentTransaction.commit();
-                    Toast.makeText(getActivity(),"Successfully Saved",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(),"Logged in",Toast.LENGTH_SHORT).show();
                 }else {
-                    Toast.makeText(getActivity(),"Un Successfully",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(),"Try again...",Toast.LENGTH_SHORT).show();
                 }
             }
         });
